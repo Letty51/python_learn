@@ -9,4 +9,3 @@ while(break_count < total_breaks):
     time.sleep(10)
     webbrowser.open("https://www.youtube.com/")
     break_count = break_count + 1
-
