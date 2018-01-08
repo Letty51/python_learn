@@ -1,1 +1,1 @@
-webbrewser.open("https://www.youtube.com/)
+webbrewser.open("https://www.youtube.com/")
