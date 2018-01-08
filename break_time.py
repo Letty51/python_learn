@@ -1,1 +1,2 @@
-webbrewser.open("https://www.youtube.com/")
+import webbrowser
+webbrowser.open("https://www.youtube.com/")
