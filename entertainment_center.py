@@ -16,5 +16,10 @@ avatar = media.Movie("Avatar",
 #print(avatar.storyline)
 #avatar.show_trailer()
 
-movies = [toy_story, avatar]
-fresh_tomatoes.open_movies_page(movies)
+#movies = [toy_story, avatar]
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS) # class variable
+print(media.Movie.__doc__) # Predefined class variable, called doc. It is the class documentation string. The code object representing the compiled function body.
+print(media.Movie.__name__) # The function's name
+print(media.Movie.__module__) # The name of the module the function was defined in, or None if unavailable.
